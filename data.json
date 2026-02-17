@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "IPhone 13 Silicone Case",
+    "brand": "Apple",
+    "price": 3000,
+    "category": "Case",
+    "compatibility": "iPhone 13",
+    "stock": 25,
+    "rating": 4.7,
+    "image_url": "images/Iphone_13_Silicone_Case.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Fast Charger",
+    "brand": "Samsung",
+    "price": 5000,
+    "category": "Charger",
+    "compatibility": "Samsung Galaxy S21",
+    "stock": 40,
+    "rating": 4.5,
+    "image_url": "images/Samsung_Fast_Charger.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "AirPods Pro",
+    "brand": "Evisu",
+    "price": 2500,
+    "category": "Bluetooth",
+    "compatibility": "iPhone and Android",
+    "stock": 1000,
+    "rating": 4.7,
+    "image_url": "images/airpod_pro.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Itel Power Bank",
+    "brand": "Itel",
+    "price": 13000,
+    "category": "Power Bank",
+    "compatibility": "All Phones",
+    "stock": 100,
+    "rating": 4.5,
+    "image_url": "images/itel_power_bank(star 200)white.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Headphones",
+    "brand": "Sony",
+    "price": 8500,
+    "category": "Headphones",
+    "compatibility": "Universal",
+    "stock": 300,
+    "rating": 4.8,
+    "image_url": "images/headset.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Fsudz Charger",
+    "brand": "Fsudz",
+    "price": 4500,
+    "category": "Charger",
+    "compatibility": "Universal",
+    "stock": 500,
+    "rating": 4.6,
+    "image_url": "images/Fsudz14_promaxcharger.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Nedupal 6A Charger",
+    "brand": "Nedupal",
+    "price": 1800,
+    "category": "Charger",
+    "compatibility": "Universal",
+    "stock": 2000,
+    "rating": 4.6,
+    "image_url": "images/Nedupal-Charger.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Fsudz Smart Watch",
+    "brand": "Fsudz",
+    "price": 18000,
+    "category": "Smart Watch",
+    "compatibility": "Universal",
+    "stock": 50,
+    "rating": 4.6,
+    "image_url": "images/Fsudz SmartWatch.jpg"
+  }
+]
