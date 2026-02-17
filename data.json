@@ -74,7 +74,7 @@
     "compatibility": "Universal",
     "stock": 2000,
     "rating": 4.6,
-    "image_url": "images/Nedupal-Charger.jpg"
+    "image_url": "images/nedupal-charger.jpg"
   },
   {
     "id": 8,
@@ -85,6 +85,6 @@
     "compatibility": "Universal",
     "stock": 50,
     "rating": 4.6,
-    "image_url": "images/Fsudz SmartWatch.jpg"
+    "image_url": "images/fsudz_smartwatch.jpg"
   }
 ]
