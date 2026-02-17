@@ -1,0 +1,196 @@
+/* General Body Styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #F2F2F2;
+  margin: 0;
+}
+
+/* Product Catalog Layout */
+#productCatalog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#productCatalog img {
+  width: 270px;
+  height: auto;
+}
+
+/* Navigation Bar Styling */
+nav {
+  background: #003366; /* Dark Blue */
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Search Bar Styling */
+#searchBar {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 15px;
+  flex: 1;
+  max-width: 250px;
+}
+
+/* Cart Icon Styling */
+#cartIcon {
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+#cartIcon:hover {
+  color: #FFCC00; /* Highlight Yellow */
+}
+
+/* Profile Icon Styling */
+#profileIcon {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Product Card Styling */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  transition: transform 0.3s;
+  perspective: 1000px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: rotateY(10deg) scale(1.05);
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+/* Buttons */
+button {
+  background: #FF6600; /* Orange */
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #cc5200; /* Darker Orange */
+}
+
+/* Footer Styling */
+footer {
+  background: #003366;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.bottom-nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bottom-nav button:hover {
+  background: #666;
+}
+
+/* Cart Page Styling */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.cart-item img {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.cart-item span {
+  flex: 1;
+  font-weight: bold;
+}
+
+.cart-item button {
+  margin-left: auto;
+  background: #c00; /* Red */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cart-item button:hover {
+  background: #900; /* Darker Red */
+}
+
+/* Cart Total Styling */
+#cartTotal {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #003366;
+}
+
+/* Checkout Button Styling */
+#paymentSection button,
+main button {
+  margin-top: 15px;
+  background: #FF6600;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#paymentSection button:hover,
+main button:hover {
+  background: #cc5200;
+}
+
+/* Map Section Styling */
+#mapSection {
+  margin-top: 20px;
+}
+
+#map {
+  border: 2px solid #003366;
+  border-radius: 10px;
+}

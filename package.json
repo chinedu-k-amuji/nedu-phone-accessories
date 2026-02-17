@@ -1,0 +1,18 @@
+{
+  "name": "wdd330-final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+    
+   
+  },
+  "keywords": [],
+  "author": "Chinedu Kingsley Amuji",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^2.0.2",
+    "paystack-node": "^0.3.0"
+  }
+}

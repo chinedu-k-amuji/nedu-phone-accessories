@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nedu Phone Accessories Limited</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <!-- Header placeholder (loaded dynamically from header.html) -->
+  <div id="header"></div>
+
+  <main>
+    <!-- Featured Section -->
+    <section id="featured"></section>
+
+    <!-- Categories Section -->
+    <section id="categories"></section>
+
+    <!-- Product Catalog -->
+    <section id="productCatalog"></section>
+
+    <!-- Paystack Payment Button -->
+    <section id="paymentSection">
+      <h2>Checkout</h2>
+      <button onclick="payWithPaystack()">Pay Now</button>
+    </section>
+
+    <!-- Maps Container -->
+    <section id="mapSection">
+      <h2>Delivery Tracking</h2>
+      <div id="map" style="height:400px;width:100%;"></div>
+    </section>
+  </main>
+
+  <!-- Footer placeholder (loaded dynamically from footer.html) -->
+  <div id="footer"></div>
+
+  <!-- Paystack Script -->
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>  
+
+  <!-- Main App Script -->
+  <script src="app.js"></script>
+  <script src="recommendations.js"></script>
+  <script src="chat.js"></script>
+</body>
+</html>
